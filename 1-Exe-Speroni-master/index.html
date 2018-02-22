@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<title> Inicio </title>
+     
+    <link rel="stylesheet" type="text/css" href="CSS/stily.css">
+
+</head>
+<body>
+
+	<h1> Teste de página </h1>
+
+<nav id="menu">
+<ul>
+	<li><a href="produtos.php?categoria=1&nome=Eletronicos"> Eletronicos </a></li>
+	<li><a href="produtos.php?categoria=2&nome=Esportes">    Esportes    </a></li>
+	<li><a href="produtos.php?categoria=3&nome=Móveis">      Móveis      </a></li>
+	<li><a href="produtos.php?categoria=4&nome=Roupas">      Roupas      </a></li>
+</ul>
+</nav>
+
+ <form method="POST" action="produtos.php">
+ 	<input type="text" name="busca">
+ 	<input type="submit">
+ </form>
+
+<br>
+
+ <form method="post" action="login.php">
+ 	<input type="text" name="user" placeholder="Nome de usuário">
+    <input type="password" name="senha" placeholder="Senha">
+    <input type="submit" value="login">
+ </form>
+</br>
+
+</body>
+</html>
+	
